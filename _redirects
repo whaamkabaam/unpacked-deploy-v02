@@ -1,0 +1,18 @@
+# Cloudflare Pages redirects for subfolder deployment
+# Handle trailing slash redirect
+/hub /hub/ 301
+
+# Protect hub assets from interference
+/hub/assets/* /hub/assets/:splat 200
+
+# Handle SPA routing within /hub subfolder
+/hub/* /hub/index.html 200
+
+# SEO redirects for legacy URLs (if any)
+/rillabox /hub/rillabox 301
+/hypedrop /hub/hypedrop 301
+/casesgg /hub/casesgg 301  
+/luxdrop /hub/luxdrop 301
+
+# Box detail redirects
+/box/* /hub/box/:splat 301
