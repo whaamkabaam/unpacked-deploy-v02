@@ -1615,7 +1615,7 @@ const PROVIDER_CONFIGS = {
     bgColor: "bg-purple-50",
     borderColor: "border-purple-200",
     textColor: "text-purple-700",
-    logo: "/images/998b5116-3761-4842-9a89-628f8e71c362.png",
+    logo: "images/998b5116-3761-4842-9a89-628f8e71c362.png",
     logoAspectRatio: "square",
     logoBackground: "white"
   },
@@ -1628,7 +1628,7 @@ const PROVIDER_CONFIGS = {
     bgColor: "bg-blue-50",
     borderColor: "border-blue-200",
     textColor: "text-blue-700",
-    logo: "/images/df4efff1-2943-40f6-9a23-fc3f872ee338.png",
+    logo: "images/df4efff1-2943-40f6-9a23-fc3f872ee338.png",
     logoAspectRatio: "wide",
     logoBackground: "transparent"
   },
@@ -1641,7 +1641,7 @@ const PROVIDER_CONFIGS = {
     bgColor: "bg-green-50",
     borderColor: "border-green-200",
     textColor: "text-green-700",
-    logo: "/images/ccc8c7f7-53cc-41ac-8e6d-0fe13f968fd3.png",
+    logo: "images/ccc8c7f7-53cc-41ac-8e6d-0fe13f968fd3.png",
     logoAspectRatio: "wide",
     logoBackground: "dark"
   },
@@ -1654,7 +1654,7 @@ const PROVIDER_CONFIGS = {
     bgColor: "bg-amber-50",
     borderColor: "border-amber-200",
     textColor: "text-amber-700",
-    logo: "/images/f983540a-2e1c-47e7-bac5-99c00df75346.png",
+    logo: "images/f983540a-2e1c-47e7-bac5-99c00df75346.png",
     logoAspectRatio: "square",
     logoBackground: "transparent"
   }
@@ -1972,7 +1972,7 @@ const BoxCard = React__default.memo(({ box, index, isVisible }) => {
                 {
                   className: "w-full h-40 rounded-lg mb-2 overflow-hidden p-2 border border-purple-200 backdrop-blur-sm relative",
                   style: {
-                    backgroundImage: `url('/images/90a8beae-8a8c-4f9a-bfd2-d7dc5be9de82.png')`,
+                    backgroundImage: `url('images/90a8beae-8a8c-4f9a-bfd2-d7dc5be9de82.png')`,
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
@@ -4634,7 +4634,7 @@ const BoxfolioDashboard = ({
           /* @__PURE__ */ jsx("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ jsx(
             "img",
             {
-              src: "/images/208a85a9-4108-4646-8cb0-aed2a05655ab.png",
+              src: "images/208a85a9-4108-4646-8cb0-aed2a05655ab.png",
               alt: "Unpacked.gg Logo",
               className: "h-32 object-contain"
             }
@@ -5757,7 +5757,7 @@ const Hub = () => {
       /* @__PURE__ */ jsx("div", { className: "p-6 md:p-8", children: /* @__PURE__ */ jsxs("div", { className: "max-w-7xl mx-auto space-y-12 md:space-y-16", children: [
         /* @__PURE__ */ jsxs("header", { className: "text-center space-y-6", children: [
           /* @__PURE__ */ jsxs("div", { className: `flex items-center justify-center ${isMobile ? "gap-3" : "gap-6"}`, children: [
-            /* @__PURE__ */ jsx("img", { src: "/images/208a85a9-4108-4646-8cb0-aed2a05655ab.png", alt: "Unpacked.gg Logo", className: `object-contain ${isMobile ? "h-32" : "h-48"}` }),
+            /* @__PURE__ */ jsx("img", { src: "images/208a85a9-4108-4646-8cb0-aed2a05655ab.png", alt: "Unpacked.gg Logo", className: `object-contain ${isMobile ? "h-32" : "h-48"}` }),
             /* @__PURE__ */ jsx("div", { className: `${isMobile ? "w-3" : "w-1"} bg-black ${isMobile ? "h-20" : "h-32"} shadow-[0_0_4px_rgba(255,255,255,0.8)]` }),
             /* @__PURE__ */ jsx("span", { className: `font-bold text-gray-800 ${isMobile ? "text-3xl" : "text-5xl"}`, children: "Hub" })
           ] }),
@@ -6343,7 +6343,7 @@ const BoxDetailContent = ({ box }) => {
           {
             className: `w-full ${isMobile ? "h-48" : "h-64"} rounded-xl overflow-hidden p-4 shadow-lg border border-purple-200 relative cursor-pointer`,
             style: {
-              backgroundImage: `url('/images/90a8beae-8a8c-4f9a-bfd2-d7dc5be9de82.png')`,
+              backgroundImage: `url('images/90a8beae-8a8c-4f9a-bfd2-d7dc5be9de82.png')`,
               backgroundSize: "cover",
               backgroundRepeat: "no-referrer",
               backgroundPosition: "center",
